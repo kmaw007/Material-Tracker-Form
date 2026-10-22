@@ -1,8 +1,10 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/tech", "destination": "/field_material_issue_usage_tracker_portal_netkom_openstream.html?page=tech", "permanent": false },
+    { "source": "/admin", "destination": "/field_material_issue_usage_tracker_portal_netkom_openstream.html?page=admin", "permanent": false }
+  ],
   "rewrites": [
-    { "source": "/", "destination": "/material_issue_tracker_form.html?page=tech" },
-    { "source": "/tech", "destination": "/material_issue_tracker_form.html?page=tech" },
-    { "source": "/admin", "destination": "/material_issue_tracker_form.html?page=admin" }
+    { "source": "/", "destination": "/field_material_issue_usage_tracker_portal_netkom_openstream.html" }
   ]
 }
