@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/material_issue_tracker_form.html?page=tech" },
+    { "source": "/tech", "destination": "/material_issue_tracker_form.html?page=tech" },
+    { "source": "/admin", "destination": "/material_issue_tracker_form.html?page=admin" }
+  ]
+}
